@@ -40,11 +40,7 @@
     font-style: normal;
 }
 
-.home-button:active {
-    color: #F5F5F5;
-}
-
-.home-button {
+#home-button {
     float: left;
     font-size: 40px;
     color: var(--toolbar-text-color);
@@ -66,7 +62,7 @@
     border-radius: 4px;
 }
 
-.toolbar-item {
+#toolbar-item {
     display: block;
     align-self: center;
     color: white;
@@ -75,6 +71,10 @@
     color: var(--toolbar-text-color);
 }
 
-.toolbar-item:hover {
-    font-weight:bold;
+#toolbar-item:hover {
+    font-weight: bold;
+}
+
+#toolbar-item.active {
+    font-weight: bold;
 }
