@@ -15,6 +15,6 @@
     <None Include="about_me.html" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="img\" />
+    <Folder Include="images\" />
   </ItemGroup>
 </Project>
