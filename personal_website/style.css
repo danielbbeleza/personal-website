@@ -5,7 +5,7 @@
 :root {
     --toolbar-background-color: transparent;
     --toolbar-text-color: #111111;
-    --sub-header-text-color: #A6A6A6;
+    --sub-header-text-color: #A9A9A9;
 }
 
 p, a {
@@ -107,5 +107,20 @@ p, a {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    
+}
+
+#social-media {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -40%);
+    text-align: center;
+    line-height: 0px;
+}
+
+#social-media-item {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
 }
