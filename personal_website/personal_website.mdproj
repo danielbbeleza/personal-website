@@ -12,7 +12,9 @@
   <ItemGroup>
     <None Include="style.css" />
     <None Include="main.html" />
-    <None Include="about_me.html" />
+    <None Include="aboutme.html" />
+    <None Include="blog.html" />
+    <None Include="portfolio.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="images\" />
