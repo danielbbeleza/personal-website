@@ -82,17 +82,16 @@ li {
 }
 
 .toolbar {
-    margin: 0;
-    padding: 20px;
+    padding: 16px;
     overflow: hidden;
     background-color: var(--toolbar-background-color);
-    list-style-type: none; /* Remove bullets */
+    list-style-type: none; 
 }
 
 .toolbar a {
     text-align: center;
-    padding-top: 10px;
-    padding-left: 8px;
+    padding-top: 16px;
+    padding-left: 14px;
     padding-right: 8px;
     text-align: center;
     text-decoration: none;
@@ -132,6 +131,22 @@ li {
 
 #social-media-item:hover {
     filter: opacity(50%);
+}
+
+#footer-contacts {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    font-size: 0.8em;
+    color: var(--portfolio-project-title);
+}
+
+#email-contact {
+    text-decoration: none;
+    color: var(--portfolio-project-title);
 }
 
 /* ABOUT ME */
