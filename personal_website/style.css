@@ -84,7 +84,10 @@ p, a {
 
 .toolbar a {
     text-align: center;
-    padding: 12px;
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
     text-decoration: none;
     line-height: 25px;
     border-radius: 4px;
@@ -131,4 +134,8 @@ p, a {
     width: 20px;
     height: 20px;
     padding-right: 10px;
+}
+
+#social-media-item:hover {
+    filter: opacity(50%);
 }
