@@ -6,10 +6,17 @@
     --toolbar-background-color: transparent;
     --toolbar-text-color: #111111;
     --sub-header-text-color: #A9A9A9;
+    --portfolio-project-title: #616569;
 }
 
 p, a {
     font-family: "Crimson Text", serif;
+}
+
+li {
+    padding-left: 40px;
+    font-size: 80%;
+    list-style: none;
 }
 
 /*
@@ -107,19 +114,6 @@ p, a {
     font-weight: bold;
 }
 
-/*About me*/
-#profile-image img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%, -150%);
-    display: block;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-}
-
 #social-media {
     position: absolute;
     top: 67%;
@@ -138,4 +132,38 @@ p, a {
 
 #social-media-item:hover {
     filter: opacity(50%);
+}
+
+/* ABOUT ME */
+#profile-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -150%);
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+/* PORTFOLIO */
+#portfolio-image-left {
+    float: left;
+    height: 600px;
+}
+
+#portfolio-text-right {
+    text-align: justify;
+    margin-left: 35%;
+    font-size: 21px;
+}
+
+#biblia-para-mim {
+    padding-top: 40px;
+}
+
+#portfolio-project-title {
+    font-weight: 700;
+    color: var(--portfolio-project-title);
 }
