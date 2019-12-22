@@ -9,7 +9,7 @@
     --portfolio-project-title: #616569;
 }
 
-p, a {
+p, a, h1, h2, h3, h4 {
     font-family: "Crimson Text", serif;
 }
 
@@ -67,20 +67,18 @@ li {
     margin-top: 2.5em;
 }
 
-#about-me-description {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    margin-right: 20%;
-    width: auto;
-}
-
 #home-button {
     float: left;
     font-size: 40px;
     color: var(--toolbar-text-color);
 }
 
+#subpage-content {
+    padding-left: 36px;
+    padding-right: 36px;
+}
+
+/* MAIN PAGE */
 .toolbar {
     padding: 16px;
     overflow: hidden;
@@ -98,15 +96,42 @@ li {
     line-height: 25px;
     border-radius: 4px;
 }
+#social-media-item {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+#social-media-item:hover {
+    filter: opacity(50%);
+}
+
+#email-contact {
+    text-decoration: none;
+    color: var(--portfolio-project-title);
+}
+
+#footer-contacts {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    font-size: 0.8em;
+    color: var(--portfolio-project-title);
+}
 
 #toolbar-item {
     display: inline-block;
     align-self: center;
     color: var(--toolbar-text-color);
+    transition: 0.7s;
+    opacity: 0.6;
 }
 
 #toolbar-item:hover {
-    font-weight: bold;
+    opacity: 1;
 }
 
 #toolbar-item.active {
@@ -123,33 +148,6 @@ li {
     line-height: 0px;
 }
 
-#social-media-item {
-    width: 20px;
-    height: 20px;
-    padding-right: 10px;
-}
-
-#social-media-item:hover {
-    filter: opacity(50%);
-}
-
-#footer-contacts {
-    position: absolute;
-    top: 92%;
-    left: 50%;
-    width: 100%;
-    transform: translate(-50%, 50%);
-    text-align: center;
-    font-size: 0.8em;
-    color: var(--portfolio-project-title);
-}
-
-#email-contact {
-    text-decoration: none;
-    color: var(--portfolio-project-title);
-}
-
-/* ABOUT ME */
 #profile-image img {
     position: absolute;
     top: 50%;
@@ -160,6 +158,15 @@ li {
     height: 200px;
     width: 200px;
     border-radius: 50%;
+}
+
+/* ABOUT ME */
+#about-me-description {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin-right: 20%;
+    width: auto;
 }
 
 /* PORTFOLIO */
